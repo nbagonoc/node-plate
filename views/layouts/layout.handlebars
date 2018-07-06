@@ -11,18 +11,7 @@
 </head>
 
 <body>
-    {{> _nav}}
-    <div class="container my-3">
-        <div class="row">
-            <div class="col-md-3 mb-3">
-                {{> _sidebar}}
-            </div>
-            <div class="col-md-9">
-                {{{body}}}
-            </div>
-        </div>
-    </div>
-    {{> _footer}}
+    {{> _nav}} {{{body}}} {{> _footer}}
 </body>
 
 </html>
