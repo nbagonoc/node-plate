@@ -1,6 +1,31 @@
+/* sticky top the side */
 .sticky-top {
   top: 15px !important;
 }
+
+/* banner */
+.banner {
+  height: 350px;
+  background-position: center center;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* featured */
+.card-img-top {
+  height: 150px;
+  background-position: center center;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* vertical align elements */
 .vetical-align {
   position: relative;
 }
@@ -12,7 +37,8 @@
   transform: translate(-50%, -50%);
 }
 
-/*small*/
+/* MEDIA QUERIES */
+/* extra small */
 @media (max-width: 566px) {
   .display-3 {
     font-size: 2rem !important;
@@ -21,6 +47,7 @@
     font-size: 1.7rem !important;
   }
 }
+/*small*/
 @media (min-width: 567px) {
   .display-3 {
     font-size: 2.5rem !important;
